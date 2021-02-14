@@ -1,0 +1,51 @@
+#clang-format --version 8.00
+
+BasedOnStyle: Google
+Language: Cpp
+
+AccessModifierOffset: -2
+AlignAfterOpenBracket: Align
+AlignConsecutiveAssignments: false
+AlignEscapedNewlinesLeft: true
+AlignTrailingComments: true
+AllowShortBlocksOnASingleLine: false
+AllowShortCaseLabelsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: None
+AllowShortIfStatementsOnASingleLine: false
+AlwaysBreakAfterReturnType: None
+AlwaysBreakBeforeMultilineStrings: false
+AlwaysBreakTemplateDeclarations: true
+BinPackArguments: false
+BinPackParameters: false
+BraceWrapping:
+  AfterClass:            true
+  AfterControlStatement: true
+  AfterEnum:             true
+  AfterFunction:         true
+  AfterNamespace:        false
+  AfterStruct:           true
+  AfterUnion:            true
+  BeforeCatch:           true
+  BeforeElse:            true
+  IndentBraces:          false
+BreakBeforeBinaryOperators: None
+BreakBeforeBraces: Custom
+BreakConstructorInitializersBeforeComma: true
+ColumnLimit: 130
+ConstructorInitializerAllOnOneLineOrOnePerLine: false
+ConstructorInitializerIndentWidth: 2
+ContinuationIndentWidth: 2
+Cpp11BracedListStyle: true
+IndentCaseLabels: false
+IndentWidth: 2
+IndentWrappedFunctionNames: false
+KeepEmptyLinesAtTheStartOfBlocks: false
+NamespaceIndentation: None
+PointerAlignment: Left
+SortIncludes: true
+SpacesInAngles: false
+SpacesInParentheses: false
+SpacesInSquareBrackets: false
+Standard: Auto
+TabWidth: 4
+UseTab: Never
