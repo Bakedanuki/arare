@@ -1,7 +1,7 @@
 #ifndef ARARE_PLATFORM_HPP
 #define ARARE_PLATFORM_HPP
 
-// Windows x86
+// Windows 32bit
 #if defined(WIN32) || defined(_WIN32)
 #define ARARE_PLATFORM_WIN32
 
